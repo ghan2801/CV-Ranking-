@@ -7,12 +7,12 @@ Original file is located at
     https://colab.research.google.com/drive/1Lv-sCL8AiJMpbh34zMLMvCnG7-KsU2Og
 """
 
-!pip install PyMuPDF
+#!pip install PyMuPDF
 
 #!pip install spacy
 
-!pip install -U spacy
-!pip install spacy_transformers
+#!pip install -U spacy
+#!pip install spacy_transformers
 
 import spacy
 from spacy.tokens import DocBin
@@ -29,7 +29,7 @@ import json
 #!pip install spacy_transformers
 #!pip install -U spacy
 
-!nvidia-smi
+#!nvidia-smi
 
 n = pd.DataFrame(columns=['Name','Skills','College Name','Graduation Year','Degree','Designation','Graduation Year','Years of Experience','Companies worked at'])
 
